@@ -22,9 +22,9 @@ const LayerCheckbox: FC<ILayersControl> = ({
   };
 
   useEffect(() => {
-    isSHow && layout().addTo(map);
+    isSHow && layout.addTo(map);
     return () => {
-      layout().remove();
+      layout.remove();
     };
     //eslint-disable-next-line
   }, [isSHow]);
