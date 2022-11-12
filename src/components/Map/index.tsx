@@ -6,6 +6,7 @@ import "./style.css";
 
 const Map = () => {
   const [map, setMap] = useState<L.Map>();
+
   useEffect(() => {
     setMap(L.map("map").setView([55.125, 53.745], 5));
   }, []);
