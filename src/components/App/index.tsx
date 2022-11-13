@@ -1,5 +1,4 @@
 import { Map } from "../Map";
-
 import "./App.css";
 
 const App = () => {
